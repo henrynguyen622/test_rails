@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Locid:</b>
+  <%= @location.locid %>
+</p>
+
+<p>
+  <b>Activity object:</b>
+  <%= @location.activity_object_id %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%= @location.rating %>
+</p>
+
+
+<%= link_to 'Edit', edit_location_path(@location) %> |
+<%= link_to 'Back', locations_path %>

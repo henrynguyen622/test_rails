@@ -1,0 +1,12 @@
+<%= javascript_tag do %>
+        $(function() {
+              var restaurant_str = "Saladang,Parkway Grill,Green Street Restaurant,Daisy Mint,Houston;s,La Grande Orange Café,President Thai Restaurant,Green Earth Vegan Cuisine,The Raymond Restaurant,1810 Argentinean Restaurant,Bistro 45,Mi Piace,Cheval Bistro,Café Santorini,Azeen;s Afghani Restaurant,Maison Akira,My Vegan,Roy;s Restaurant,AKA - An American Bistro,Saladang Song";
+              var availableTags = restaurant_str.split(",");
+			    $( "#tags" ).autocomplete({
+			      source: availableTags
+			    });
+			    $(".ui-helper-hidden-accessible").hide();
+        });
+<% end %>
+
+<input id="tags" style="display:inline;margin-top:0px;"/>

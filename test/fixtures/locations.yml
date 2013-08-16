@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  locid: MyString
+  activity_object_id: 1
+  rating: 1
+
+two:
+  locid: MyString
+  activity_object_id: 1
+  rating: 1

@@ -1,0 +1,6 @@
+//Display the new post
+<%= debugger %>
+$(".timeline").prepend("<%= escape_javascript render(@link.post_activity) %>");
+
+SocialStream.Timeline.update("<%= escape_javascript dom_id(@link.post_activity) %>");
+SocialStream.Linkser.Wall.new_();

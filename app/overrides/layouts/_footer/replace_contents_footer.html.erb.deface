@@ -1,0 +1,13 @@
+<!-- replace_contents 'footer' -->
+
+      <ul>
+        <li>
+          <%= Date.today.year %> © 
+        </li>
+        <li id="trade_mark">
+          <%= link_to t('site.name'), 'local_host:3000' %>
+        </li>
+        <li>
+          Food Maniac Social Network!
+        </li>
+      </ul>

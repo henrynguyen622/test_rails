@@ -1,0 +1,16 @@
+development:
+  enable_star: 1
+  min_infix_len: 1
+  config_file: "./config/development.sphinx.conf"
+  searchd_log_file: "./log/searchd.log"
+  query_log_file: "./log/searchd.query.log"
+  pid_file: "./log/searchd.development.pid"
+  bin_path: "/Users/Hnguyen/Downloads/sphinx-2.0.8-release-osx10.6-i386/bin"
+  searchd_binary_name: "searchd"
+  indexer_binary_name: "indexer"
+test:
+  enable_star: 1
+  min_infix_len: 1
+production:
+  enable_star: 1
+  min_infix_len: 1
